@@ -21,5 +21,5 @@ This prototype uses IETF's "Architecture for Trustworthy and Transparent Digital
 ## References
 
 1. Ben Laurie. 2014. Certificate transparency. Commun. ACM 57, 10 (October 2014), 40–46. https://doi.org/10.1145/2659897
-2.  Birkholz, Henk; Delignat-Lavaud, Antoine; Fournet, Cedric; Deshpande, Yogesh; Lasker, Steve  (2024-07-22). "An Architecture for Trustworthy and Transparent Digital Supply Chains (draft-ietf-scitt-architecture-08)". ietf.org. IETF. Retrieved 2023-05-28. https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/08/
+2. Birkholz, Henk; Delignat-Lavaud, Antoine; Fournet, Cedric; Deshpande, Yogesh; Lasker, Steve  (2024-07-22). "An Architecture for Trustworthy and Transparent Digital Supply Chains (draft-ietf-scitt-architecture-08)". ietf.org. IETF. Retrieved 2023-05-28. https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/08/
 3. Certificate Transparency Version 2.0. December 2021. doi:10.17487/RFC9162. RFC 9162. https://datatracker.ietf.org/doc/html/rfc9162
