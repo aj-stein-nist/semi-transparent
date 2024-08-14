@@ -44,6 +44,8 @@ In this prototype, auditors are hardware security and supply chain firms who wil
 
 Verifiers are persons or organizations that design, implement, deploy, and maintain client software that analyzes a chosen subset of statement records to make quantitative and qualitative determinations about their data. This role is different from that of [auditors](#auditors), who are monitoring the integrity and consistency of the sum of all statement records in the append-only log.
 
+In this prototype, verifiers can be organizations from a variety of roles. Hardware security and supply chain analysis firms will likely serve as verifiers to support the use cases underlying their applications. The specifications do not require the same firms to perform both auditor and verifier roles simultaneously, even though the architecture documents their operation separately to increase interoperability and resiliency. Unlike auditors, different verifiers will build applications to meet specific use cases for particular subsets of hardware and analysis. The architecture and this role, especially relevant for hardware, is intended for verifiers to specialize in metrology applications target specific niches.
+
 ### How?
 
 ### When?
