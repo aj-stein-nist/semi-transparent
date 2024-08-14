@@ -48,6 +48,10 @@ In this prototype, verifiers can be organizations from a variety of roles. Hardw
 
 ### How?
 
+Below is a diagram that visualizes how issuers register statements, transparency services publish them after registration, issuers recirculate transparent statements, and how auditor and verifiers sustain healthy operation of the transparency service for downstream consumer applications over time.
+
+![diagram](./flow_diagram.svg)
+
 ### When?
 
 ## References
