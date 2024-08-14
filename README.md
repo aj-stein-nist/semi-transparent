@@ -54,6 +54,14 @@ Below is a diagram that visualizes how issuers register statements, transparency
 
 ### When?
 
+#### Strategic
+
+This prototype intends to evaluate the usage of metadata in JEP30 PartModel format to assess the feasibility and interoperability of this specification for the scenarios described above. As needed, contributors to the prototype and this supporting documentation will make the necessary recommendations to JEDEC and/or design derivative or novel specifications for models and encodings for metadata as needed if reported bugs and requested features are not applicable for the JEP30 PartModel specification.
+
+#### Tactical
+
+This prototype will demonstrate the intended use of a transparency service by [stakeholders](#who) this document describes above: manufacturers of components and integrated hardware should register statements as they finish each production unit ready for sale and operation; analysis firms should process and register derivative statements about the quality of hardware as they process new statements' records in the append-only log through polling; auditors and verifiers should perform micro and macro-level processing through polling the append-only log.
+
 ## References
 
 1. Ben Laurie. 2014. Certificate transparency. Commun. ACM 57, 10 (October 2014), 40–46. https://doi.org/10.1145/2659897
