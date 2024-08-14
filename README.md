@@ -10,7 +10,12 @@ Some software developers makes it a priority to transparently publish informatio
 
 ### What?
 
-This prototype uses IETF's "Architecture for Trustworthy and Transparent Digital Supply Chains,"[2] a specification and emerging standard that generalizes the Certificate Transparency architecture[3] for many digital use cases, including software and hardware. The same principles apply, a set of entities digitally sign statements (metadata) about artifacts (a hardware component), analyze the signature and statement for baseline requirements and quality determination, and register these statements in order. These statements are preserved in order by distributed ledger technology.
+This prototype uses IETF's "Architecture for Trustworthy and Transparent Digital Supply Chains,"[2] a specification and emerging standard that generalizes the Certificate Transparency architecture[3] for many digital use cases, including software and hardware. The same principles apply in the original architecture for certificates and the newer generalized architecture for all digital supply chains, including hardware.
+
+A set of entities digitally sign statements (metadata) about artifacts (a hardware component), analyze the signature and statement for baseline requirements and quality determination, and register these statements in order.
+
+Distributed ledger technology guarantees the integrity of individual statements and the order of their publication as a sequence on a transparency service. Digital signatures of the statements allow for cryptographic verification of the statement, in this case metadata about a hardware component, including a hash of its contents. On the transparency service, each record of this statement, with its own cryptographically verified hash, is combined with the hash of the previously published record's hash, countersigned, and published. This protocol is a kind of verifiable data structure, a Merkle tree. This Merkle tree construction allows efficient, performant verification of recent records (inclusion in the service) and the chain of all previous statement records (consistency of the service).
+
 
 ### Who?
 
